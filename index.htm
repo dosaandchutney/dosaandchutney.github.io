@@ -1,3 +1,527 @@
 <html>
-test
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+#header {
+    padding: 0 px ;
+    height: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    z-index: 997;
+    background-color: #000;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+header {
+    display: block;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15 px;
+    margin-left: -15 px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960
+px
+;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720
+px
+;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540
+px
+;
+}
+.container {
+    width: 100%;
+    padding-right: 15
+px
+;
+    padding-left: 15
+px
+;
+    margin-right: auto;
+    margin-left: auto;
+}
+p, a, h3, h4, h5, h6, li, span {
+    font-family: 'Open Sans', sans-serif !important;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#block-sitebranding {
+    text-align: center;
+}
+#block-sitebranding img {
+    padding: 10
+px
+;
+}
+#Logo {
+    transition: all 0.3s;
+}
+.largeLogo {
+    width: 210
+px
+;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+img {
+    border: 0;
+}
+.navbar {
+    position: relative;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 10
+px
+;
+    background: #9c0303;
+    background: -moz-linear-gradient(top, #9c0303 0%, #e60000 100%);
+    background: -webkit-linear-gradient(top, #9c0303 0%, #e60000 100%);
+    background: linear-gradient(to bottom, #9c0303 0%, #e60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c0303', endColorstr='#e60000', GradientType=0);
+}
+@media (min-width: 992px)
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5
+rem
+ 1
+rem
+;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+@media (min-width: 992px)
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.navbar>.container, .navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960
+px
+;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720
+px
+;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540
+px
+;
+}
+.container {
+    width: 100%;
+    padding-right: 15
+px
+;
+    padding-left: 15
+px
+;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.navbar-toggler {
+    padding: 0.25
+rem
+ 0.5
+rem
+;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1
+px
+ solid transparent;
+    border-radius: 0;
+}
+.navbar-toggler {
+    padding: 0.25
+rem
+ 0.75
+rem
+;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1
+px
+ solid transparent;
+    border-radius: 0.25
+rem
+;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1
+px
+, 1
+px
+, 1
+px
+, 1
+px
+);
+    overflow: hidden;
+    height: 1
+px
+;
+    width: 1
+px
+;
+    word-wrap: normal;
+}
+h1, h2 {
+    font-family: 'Satisfy', cursive;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5
+rem
+;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5
+rem
+;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+.navigation ul.navbar-nav {
+    padding-left: 95
+px
+;
+}
+.navigation ul.navbar-nav {
+    padding-left: 95
+px
+;
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1
+rem
+;
+}
+
+
+p, a, h3, h4, h5, h6, li, span {
+    font-family: 'Open Sans', sans-serif !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+.navbar-light .navbar-nav .nav-link {
+    margin: 0
+px
+ 12
+px
+;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fefefe;
+    /* padding: 30
+px
+ 0
+px
+; */
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20
+px
+;
+    border-top: 4
+px
+ solid transparent;
+    border-bottom: 4
+px
+ solid transparent;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5
+rem
+;
+    padding-left: 0.5
+rem
+;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-link {
+    display: block;
+    padding: 0.5
+rem
+ 1
+rem
+;
+}
+p, a, h3, h4, h5, h6, li, span {
+    font-family: 'Open Sans', sans-serif !important;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+
+</style>
+</head>
+<body>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    <script>
+window.onload = function() {
+  window.scrollTo(0, 0);
+
+};
+var size = 0;
+
+window.onscroll = function() {
+    resizeLogo();
+};
+
+</script>
+
+    
+    <!-- Navigation ==========================================-->
+                            <header id="header" class="header-bg">
+                                <div id="top"> </div>
+                <div class="row" style="  background-color: #A50203;"> 
+                    <div class="container">
+                      <div class="region region-logo">
+    <div id="block-sitebranding" class="site-branding block block-system block-system-branding-block">
+  
+    
+  
+
+<a href="https://dosanchutney.com/">
+    <img class="largeLogo" id="Logo" src="https://dosanchutney.com/themes/dnc/images/logo.png" alt="" title="">   
+</a>
+ 
+
+</div>
+
+  </div>
+ 
+                    </div>
+                </div>
+               
+
+  </div>
+
+      <div style="  background-image: url('bg.jpg'); background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  background-color: #111112; height:50%;overflow-y: hidden;">
+  <center><H2 style="color:white;font-family: 'Open Sans', sans-serif !important;
+font-size: 2.1rem;}"><br/><br/> We'll be back online soon.
+  </H2></center>
+  <center>
+  <H3 style="color:white;font-family: 'Open Sans', sans-serif !important;font-size: 1.5rem;
+}"><br>Sorry for the inconvenience, but we're performing some upgrades to the website at the moment. <br>If you need you can always contact us over the phone or through email listed at the bottom of the page.</h3>
+  </center>
+  
+  </div>
+               
+  <div style="    background-color: #1f1f1f;">
+  <center><img src="dosafooter.jpg"></center>
+  </div>
+  
+ 
+
+</body>
 </html>
